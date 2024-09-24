@@ -1,11 +1,11 @@
 import React from 'react';
 import AppLayout from './UserPanel/Layouts/AppLayout/index';
-import AdminDashboard from './AdminPanel/Components/Header/index';
+import AdminDashboardLayout from './AdminPanel/Layouts/AdminLayout/index';
 const App = () => {
   return (
     <>
    {/* <AppLayout/> */}
-   <AdminDashboard/>
+   <AdminDashboardLayout/>
     </>
   )
 }

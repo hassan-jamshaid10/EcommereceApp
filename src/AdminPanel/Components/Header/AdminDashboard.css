@@ -1,0 +1,5 @@
+/* Override Ant Design's dropdown arrow color */
+.ant-menu-submenu .ant-menu-submenu-title .ant-menu-submenu-arrow {
+    color: #CDC2A5 !important; /* Set custom arrow color */
+  }
+  
