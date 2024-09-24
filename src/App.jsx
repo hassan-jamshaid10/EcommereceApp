@@ -1,10 +1,12 @@
-import React from 'react'
-
+import React from 'react';
+import AppLayout from './UserPanel/Layouts/AppLayout/index';
+import AdminDashboard from './AdminPanel/Components/Header/index';
 const App = () => {
   return (
-    <div>
-      <a>my name is hassan</a>
-    </div>
+    <>
+   {/* <AppLayout/> */}
+   <AdminDashboard/>
+    </>
   )
 }
 
